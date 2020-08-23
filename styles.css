@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #0000008a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.share-wrap{
+    background: #ffffffd5;
+    padding: 20px 50px;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+
+.info p{
+    margin-bottom:40px;
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; 
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.social-media .social-media-blue{
+    background:#3b5998;
+}
+
+.social-media .social-media-cyan{
+    background: #1da1f2;
+}
+
+.social-media .social-media-black{
+    background:#000;
+}
+
+
+.social-media .fa-facebook,
+.social-media .fa-twitter,
+.social-media .fa-reddit{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.shares-no{
+    margin-top: 35px;
+    font-size: 20px;
+}
+
